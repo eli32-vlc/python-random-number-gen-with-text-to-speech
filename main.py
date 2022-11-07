@@ -21,7 +21,6 @@ def close():
     window.destroy()
 
 def randomoutput():
-    messagebox.askokcancel("Are You Sure Want to continue?", "Want to continue?,you have 3 credit left?")
     output = random.randint(0,1000000000)
     messagebox.showinfo('Output',"Your Random Number is %d" % output)
     engine = pyttsx3.init()
