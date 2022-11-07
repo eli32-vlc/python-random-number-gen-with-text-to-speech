@@ -11,7 +11,7 @@ import webbrowser
 def help():
     messagebox.askokcancel("Are You Sure Want to continue?", "Want to continue?")
     #No Help There
-    webbrowser.open('https://https://www.naturalreaders.com/online/')
+    webbrowser.open('https://https://www.naturalreaders.com/online/support/help')
 
 
 def buy():
