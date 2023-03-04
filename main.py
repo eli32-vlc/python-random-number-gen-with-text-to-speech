@@ -21,7 +21,7 @@ def close():
     window.destroy()
 
 def randomoutput():
-    output = random.randint(0,1000000000)
+    output = random.randint(0,1000000000000)
     messagebox.showinfo('Output',"Your Random Number is %d" % output)
     engine = pyttsx3.init()
     engine.say("Your Random Number is %d" % output)
